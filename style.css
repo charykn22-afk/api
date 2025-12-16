@@ -10,6 +10,10 @@ h1 {
     color: #111111; /* Flipkart Blue */
     margin-bottom: 30px;
 }
+h2 {
+   font-size: 24px;
+   font-weight: 600;
+}
 
 .product-container {
     display: grid;
@@ -44,13 +48,15 @@ h1 {
     margin-bottom: 10px;
 }
 
-.product-title {
+.product-card h2.product-title {
     font-size: 14px;
     font-weight: 500;
     margin: 10px 0;
     height: 40px;
     overflow: hidden;
     color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .price {

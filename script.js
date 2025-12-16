@@ -14,7 +14,7 @@ fetch("https://dummyjson.com/products")
                 <div class="product-card">
                     <img src="${product.thumbnail}" alt="${product.title}">
                     
-                    <div class="product-title">${product.title}</div>
+                    <h2 class="product-title">${product.title}</h2>
                     
                     <div class="price">₹ ${priceInRupees.toLocaleString()}</div>
                     
